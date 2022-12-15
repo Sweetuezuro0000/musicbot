@@ -11,7 +11,7 @@ if os.path.exists("local.env"):
 load_dotenv()
 admins = {}
 
-SESSION_NAME = getenv("SESSION_NAME", "AQAKedUjm_J6N6lq4P5BCSBwNvOJvfejEAEF9oaTPoofe_ABAtjCmo43FH6YLOtAFmkfV-NI76EOISjMF45cu_EIrjN1AYq9tXdaVAWv9_fARYYvgwyZzJx04NIOr4RQUh9kXxv_x8XLpYYZWpds8erSizo-f_yqhr4ijYXLw3hUaSEgdWznZPMiL3QXTi_FXAh-Af4QLqig9bw5ZrNoqZr-hHGRY_xNu4KHjPKwGrPlEUuu3j9NVXGtFj9TZI9dJWwIRGLef6KbTyPX3SAE1ETphwRSAuEO0uGjEZBADD7zHYA8sL57qVEZaC05pmq_n9ySIEhFivBAF13LCcuq-sG5AAAAAUT_6vMA")
+SESSION_NAME = getenv("SESSION_NAME", "AQCgtvEJsux3iGhXPBiH9zcsXybcOHJYDKj8NsuO9OcYsoNz0apr_QY2rWPoXKJ7Gc61GpAwC4t5ZoeopILwxii9kiiIXs8MM6xZZkouJ-oA-hOFYCe7S1hUTPVuqUET90PlrsTYeqRGkIPy9TiE0OhJKisLRFf544vhRGlNtHOJcTfYohiROsVassYhV6qmmMtldUQNqYQ6Un4DZk-YLUFeypl8OR7TQ36hbvHoyCitjax6KL1KLcc8QhTCeA2L1hZ7G_V1yGzN53yeUUiLrj5JDbsitB0m6hSuW5b2ZR3Qzv1gdLK0hrzFua6rjJmTEKiLHBK3DRoUaEp0Yohn_HdVAAAAAVKTWLgA")
 
 if str(getenv("STRING_SESSION2")).strip() == "":
     SESSION2 = str(None)
@@ -53,7 +53,7 @@ SUDO_USERS = list(map(int, getenv("SUDO_USERS", "5540577046").split()))
 COMMAND_PREFIXES = list(getenv("COMMAND_PREFIXES", "/ ! .").split())
 ALIVE_IMG = getenv("ALIVE_IMG", "https://telegra.ph/file/fc9d87ffd1c6f828eb7fc.png")
 START_PIC = getenv("START_PIC", "https://telegra.ph/file/a414e2cdfeaa7d4414b89.png")
-DURATION_LIMIT = int(getenv("DURATION_LIMIT", "54000"))
+DURATION_LIMIT = int(getenv("DURATION_LIMIT", "540000"))
 UPSTREAM_REPO = getenv("UPSTREAM_REPO", "https://github.com/")
 PLAY_IMG = getenv("PLAY_IMG", "https://telegra.ph/file/30444b973fc9a8100152e.jpg")
 QUE_IMG = getenv("QUE_IMG", "https://telegra.ph/file/b95c13eef1ebd14dbb458.png")
